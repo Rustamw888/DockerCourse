@@ -25,4 +25,6 @@ app.post('/', async (req, res) => {
   res.redirect('/')
 })
 
+console.log('Hello Node.js!')
+
 app.listen(port, () => console.log(`Server listening on port ${port}`))
